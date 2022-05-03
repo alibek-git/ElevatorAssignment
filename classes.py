@@ -19,12 +19,11 @@ class Building:
 
 class Elevator:
 
-    passengers_in_the_elevator = []
-
     def __init__(self, max_floor, current_floor=1, max_capacity=5):
         self.current_floor = current_floor
         self.max_capacity = max_capacity
         self.max_floor = max_floor
+        self.passengers_in_the_elevator = []
 
 
 class Passenger:

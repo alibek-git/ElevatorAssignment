@@ -21,3 +21,5 @@ for floor in range(storeys):
         sleep(1)
         print(y)
 
+# while power_on:
+#
